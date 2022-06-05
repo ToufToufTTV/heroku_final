@@ -28,7 +28,7 @@ module.exports = {
       .setTimestamp()
       .setFooter({ text: 'L\'utilisateur a quitté!' });
 
-      const logChannel = client.channels.cache.get('982379908682625054');
-      logChannel.send({ embeds: [embed] });
+      const logChannel = client.channels.cache.get(fetchGuild.logChannel);
+     logChannel.send({ embeds: [embed] });
   },
 };
