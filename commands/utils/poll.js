@@ -19,8 +19,8 @@ module.exports = {
       .setFooter({ text: `Nouveau sondage généré par ${message.author.tag}!` });
 
     const poll = await message.reply({ embeds: [embed] });
-    poll.react('<:greencheck:946413053753299015>');
-    poll.react('❌');
+    poll.react('<:Valide:981276161365655572>');
+    poll.react('<:Refuse:981276161101426709>');
   },
   options: [
     {
@@ -48,7 +48,7 @@ module.exports = {
       .setFooter({ text: `Nouveau sondage généré par ${interaction.user.tag}!` });
 
     const poll = await interaction.reply({ embeds: [embed], fetchReply: true });
-    poll.react('<:greencheck:946413053753299015>');
-    poll.react('❌');
+    poll.react('<:Valide:981276161365655572>');
+    poll.react('<:Refuse:981276161101426709>');
   },
 };
