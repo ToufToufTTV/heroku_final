@@ -1,7 +1,7 @@
 module.exports = {
   name: "collector",
   category: 'utils',
-  permissions: ['SEND_MESSAGES'],
+  permissions: ['SEND_MESSAGES', 'ADMINISTRATOR'],
   ownerOnly: false,
   usage: 'collector [question]',
   examples: ['collector'],

@@ -23,7 +23,7 @@ const welcomeEmbed = new MessageEmbed()
 module.exports = {
   name: "welcome",
   category: 'utils',
-  permissions: ['SEND_MESSAGES'],
+  permissions: ['SEND_MESSAGES', 'ADMINISTRATOR'],
   ownerOnly: false,
   usage: 'welcome',
   examples: ['welcome'],
