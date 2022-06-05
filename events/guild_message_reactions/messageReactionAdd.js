@@ -21,7 +21,7 @@ module.exports = {
     if (emojiName === '🟦') message.reactions.removeAll();
     // if (emojiName === '🟩') message.channel.send('Je suis le carré vert: 🟩!');
     if (emojiName === '🟩') member.send("Ceci est un rappel, LaSainteTouf domine le monde.");
-    if (emojiName === '<:Valide:981276161365655572>') member.send("Tu as accepté le poll!");
-    if (emojiName === '<:Refuse:981276161101426709>') member.send("Tu as refusé le poll!");
+    if (emojiName === '✅') member.send("Tu as accepté le poll!");
+    if (emojiName === '❌') member.send("Tu as refusé le poll!");
   }
 };
