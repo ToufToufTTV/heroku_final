@@ -23,5 +23,8 @@ module.exports = {
     if (emojiName === '🟩') member.send("Ceci est un rappel, LaSainteTouf domine le monde.");
     if (emojiName === '✅') member.send("Tu as accepté le poll!");
     if (emojiName === '❌') member.send("Tu as refusé le poll!");
+      // <:__:981276161101426709> <:__:981276161365655572> ☑✖
+    if (emojiName === '☑') member.send("Tu as accepté de jouer avec les petits potes!");
+    if (emojiName === '✖') member.send("Tu as refusé de jouer aveec les petits potes!");
   }
 };

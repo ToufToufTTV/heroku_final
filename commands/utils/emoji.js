@@ -18,5 +18,8 @@ module.exports = {
     await poll.react('🟥');
     await poll.react('🟩');
     await poll.react('🟦');
+          // <:__:981276161101426709> <:__:981276161365655572>
+    await poll.react('<:__:981276161101426709>');
+    await poll.react('<:__:981276161365655572>');
   }
 };
